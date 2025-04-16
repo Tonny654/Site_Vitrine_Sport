@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../asset/img/Activitées.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.boîte1 {
+    background-color: aquamarine;
+    height: 600px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.boîte1 h1 {
+    text-align: center;
+}
+
+.boîte1 p {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #63c7b2;
+}
+
+header {
+    position: relative;
+    padding: 0 1.5rem;
+    background-color: rgba(0, 0, 0, 0.238);
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar .Links {
+    display: flex;
+    gap: 2rem;  
+}
+
+.navbar .burger-menu-button {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;   
+}
+
+.action-button {
+    background-color: #63c7b2;
+    color: #120d31;
+    border: 1px solid #63c7b2;
+    padding: 0.5em 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;  
+}
+
+.action-button:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.pro {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.pro:hover {
+    background-color: #fff;
+    color: #120d31;
+}
+
+
+/* ---------- Burger Menu ----------*/
+
+.burger-menu {
+    display: none;
+     height: 0;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.burger-menu.open {
+    height: 310px;
+
+}
+
+.burger-menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    height: 1px;
+    background-color: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.burger-menu .action-button {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/*---------- RESPONSIVE ----------*/
+
+@media (max-width: 990px){
+    header{
+       background: none; 
+    }
+
+    .navbar .Links,
+    .navbar .action-button{
+        display: none;
+
+    }
+
+    .navbar .burger-menu-button{
+        display: block;
+    }
+
+.burger-menu {
+    display: block;
+
+}
+}
+
+
+
+
