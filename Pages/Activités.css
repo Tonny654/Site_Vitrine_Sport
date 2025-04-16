@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-image: url(../asset/img/Activitées/boxing-glove-4790853_1280.jpg);
+    background-image: url(../assets/Img/BG_Activités/boxing-glove-4790853_1280.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -15,7 +15,7 @@ body {
 body .boîte1{
     width: 800px;
     height: 600px;
-    background-image: url(../asset/img/Activitées/boxing-activités1.jpg);
+    background-image: url(../assets/Img/Activitées/boxing-activités1.jpg);
     background-size: cover;
     background-position: center;
     border: 2px solid #63c7b2;
@@ -24,7 +24,7 @@ body .boîte1{
 body .boîte2{
     width: 800px;
     height: 600px;
-    background-image: url(../asset/img/Activitées/boxing-féminin.jpg);
+    background-image: url(../assets/Img/Activitées/boxing-féminin.jpg);
     background-size: cover;
     background-position: center;
     border: 2px solid #63c7b2;
@@ -33,7 +33,7 @@ body .boîte2{
 body .boîte3{
     width: 800px;
     height: 600px;
-    background-image: url(../asset/img/Activitées/boxing-programme\ fitness\ complet.jpg);
+    background-image: url(../assets/Img/Activitées/boxing-programme\ fitness\ complet.jpg);
     background-size: cover;
     background-position: center;
     border: 2px solid #63c7b2;

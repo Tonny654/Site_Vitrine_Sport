@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-image: url(../Site_Vitrine/assets/Img/punching-bags-rope-gym.jpg);
+    background-image: url(./assets/Img/punching-bags-rope-gym.jpg);
     background-size: cover;
     background-position: center;
 }
